@@ -16,7 +16,7 @@ This project is part of development training in multiple languages. All applicat
 
 ## Part one
 We are in  
-[![CakePHP](https://cakephp.org/img/cake-logo.svg)](https://cakephp.org/)
+[CakePHP 3.x](https://cakephp.org/)
 
 
 ## Installation
