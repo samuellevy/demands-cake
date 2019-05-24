@@ -1,11 +1,23 @@
-# CakePHP Application Skeleton
+# Demands management system created with CakePHP
 
-[![Build Status](https://img.shields.io/travis/cakephp/app/master.svg?style=flat-square)](https://travis-ci.org/cakephp/app)
-[![Total Downloads](https://img.shields.io/packagist/dt/cakephp/app.svg?style=flat-square)](https://packagist.org/packages/cakephp/app)
+This project is part of development training in multiple languages. All applications developed for this project shall contain following functionalities:
 
-A skeleton for creating applications with [CakePHP](https://cakephp.org) 3.x.
+- crud tasks, users, groups, sectors, messages
+- relationship between:
+- - tasks to users
+- - users to groups
+- - users to sectors
+- - messages to tasks
+- - messages to users
+- send image
+- login and auth
+- backend integrated
+- RESTful version
 
-The framework source code can be found here: [cakephp/cakephp](https://github.com/cakephp/cakephp).
+## Part one
+We are in  
+[![CakePHP](https://cakephp.org/img/cake-logo.svg)](https://cakephp.org/)
+
 
 ## Installation
 
@@ -15,37 +27,19 @@ The framework source code can be found here: [cakephp/cakephp](https://github.co
 If Composer is installed globally, run
 
 ```bash
-composer create-project --prefer-dist cakephp/app
+composer install
 ```
 
-In case you want to use a custom app dir name (e.g. `/myapp/`):
-
-```bash
-composer create-project --prefer-dist cakephp/app myapp
-```
-
-You can now either use your machine's webserver to view the default home page, or start
-up the built-in webserver with:
-
+You can now either use your machine's webserver to view the default home page, or start up the built-in webserver with:
 ```bash
 bin/cake server -p 8765
 ```
 
-Then visit `http://localhost:8765` to see the welcome page.
+Then visit `http://localhost:8765` to see the application. :smiley:
 
-## Update
+## Author
+**Samuel Levy**  
+Software Engineer at
 
-Since this skeleton is a starting point for your application and various files
-would have been modified as per your needs, there isn't a way to provide
-automated upgrades, so you have to do any updates manually.
-
-## Configuration
-
-Read and edit `config/app.php` and setup the `'Datasources'` and any other
-configuration relevant for your application.
-
-## Layout
-
-The app skeleton uses a subset of [Foundation](http://foundation.zurb.com/) (v5) CSS
-framework by default. You can, however, replace it with any other library or
-custom styles.
+**Nokengo Brasil**  
+[http://nokengo.com.br](http://nokengo.com.br)
